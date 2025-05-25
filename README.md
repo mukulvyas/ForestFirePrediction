@@ -55,8 +55,8 @@ The model expects the following input features:
 | FFMC        | float   | Fine Fuel Moisture Code            | 85.6         |
 | DMC         | float   | Duff Moisture Code                 | 26.7         |
 | ISI         | float   | Initial Spread Index               | 7.2          |
-| Classes     | float   | Fire class/category (numeric)      | 1.0          |
-| Region      | float   | Region code (numeric)              | 2.0          |
+| Classes     | float   | Fire class/category (numeric)      | 1 or 0         |
+| Region      | float   | Region code (numeric)              | 1 or 0       |
 
 **Note:** All values should be numeric. The model uses these features to scale and predict wildfire risk.
 
